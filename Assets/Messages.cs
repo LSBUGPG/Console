@@ -28,6 +28,8 @@ public class Messages : MonoBehaviour
 
                 yield return new WaitForSeconds(2);
             }
+
+            yield return null;
         }
     }
 
